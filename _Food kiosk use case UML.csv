@@ -1,0 +1,71 @@
+Id,Name,Shape Library,Page ID,Contained By,Group,Line Source,Line Destination,Source Arrow,Destination Arrow,Text Area 1
+1,Page,,,,,,,,, Blank UML
+2,MinimalTextBlock,Standard,1,,,,,,,"use case :Access the system
+initila condition:invalid card
+Initial status: Admin logged in 
+Steps
+1.Admin received access denied
+2.lock the package
+3.realse the package
+4monitor system for feedback
+5. Initiate lockdown
+6.send messages
+Post condition:
+system normal status
+"
+3,MinimalTextBlock,Standard,1,,,,,,,"use case:received feedback
+		from customer
+Initial condition:Access Attempts failed 
+Steps:
+1:system identifies failed access
+2:send message with system and  condition to admin.
+3:Occured time.
+
+Post Condition
+message Close and logged
+"
+4,Rounded Rectangle Container,Flowchart Shapes,1,,43,,,,,
+5,Text,Standard,1,4,43,,,,,"Tutorials (Hold Shift + ⌘ or Ctrl, then click)"
+6,Button,UI Mockups,1,4,43,,,,,Watch Lucidchart basic tutorials
+7,Text,Standard,1,4,43,,,,,Description
+8,Text,Standard,1,4,43,,,,,"This blank UML template can help you: 
+Access shapes to create UML activity, sequence, state machine, or use case diagrams
+Describe the boundary, structure, and behavior of a system and its objects
+Create a UML diagram starting from a blank canvas
+ Add content to customize this blank canvas to your use case. "
+9,User Image,User Images,1,4,43,,,,,
+10,Actor,UML,1,,,,,,,customer
+11,Actor,UML,1,,,,,,,food prepare
+12,Actor,UML,1,,,,,,,admin
+13,Use Case,UML,1,,,,,,,order
+14,Use Case,UML,1,,,,,,,acess the package
+15,Use Case,UML,1,,,,,,,payment
+16,Use Case,UML,1,,,,,,,receive order
+17,Use Case,UML,1,,,,,,,made food
+18,Use Case,UML,1,,,,,,,check order detail
+19,Use Case,UML,1,,,,,,,serve customer
+20,Use Case,UML,1,,,,,,,acces the system
+21,Use Case,UML,1,,,,,,,feedback
+22,Use Case,UML,1,,,,,,,responed feedback
+23,Actor,UML,1,,,,,,,user
+24,Actor,UML,1,,,,,,,customer
+25,Actor,UML,1,,,,,,,admin
+26,Actor,UML,1,,,,,,,employee
+27,Use Case,UML,1,,,,,,,login
+28,Use Case,UML,1,,,,,,,feedback
+29,Line,,1,,,12,22,None,None,
+30,Line,,1,,,12,20,None,None,
+31,Line,,1,,,12,21,None,None,
+32,Line,,1,,,11,16,None,None,
+33,Line,,1,,,11,18,None,None,
+34,Line,,1,,,11,17,None,None,
+35,Line,,1,,,11,19,None,None,
+36,Line,,1,,,25,23,None,None,
+37,Line,,1,,,23,24,None,None,
+38,Line,,1,,,26,36,None,None,
+39,Line,,1,,,20,27,None,Open Arrow,
+40,Line,,1,,,10,13,None,None,
+41,Line,,1,,,10,28,None,None,
+42,Line,,1,,,10,15,None,None,
+43,Group 1,,1,,,,,,,
+44,Page,,,,,,,,,Page 2
